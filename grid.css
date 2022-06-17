@@ -1,0 +1,46 @@
+body{
+    background-color: hsl(0, 0%, 95%);
+    box-sizing: border-box;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    padding-top: 50px;
+    column-gap: 1em;
+    height: 250px;
+    max-width: 80%;
+    margin: auto;
+}
+.section1{
+    background-color: aqua;
+}
+ .section2{
+    background-color: hsl(31, 77%, 52%);
+}
+
+.wrapper-one{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    padding-top: 1em;
+    column-gap: 1em;
+    height: 250px;
+    max-width: 80%;
+    margin: auto;
+}
+
+.row{
+    display: grid;
+    row-gap: 1em;
+}
+
+.section3{
+    background-color: yellow;
+}
+
+.section4{
+    background-color:  hsl(184, 100%, 22%);
+}
+.section5{
+    background-color: hsl(179, 100%, 13%);
+}
